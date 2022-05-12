@@ -1,0 +1,199 @@
+.main {
+    padding: 15px 0;
+}
+
+/* info */
+.info {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fff;
+}
+
+.info-header {
+    position: relative;
+}
+
+.info-img {
+    width: 100%;
+}
+
+.info-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 0 16px;
+    margin: 10px 0;
+}
+
+.info-content {
+    padding: 0 16px;
+}
+
+.my-infor {
+    display: block;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #757575;
+    margin: 15px 0;
+}
+
+.my-infor i {
+    color: #009688;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.my-infor-header {
+    font-size: 18px;
+}
+
+.my-infor-skill {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #757575;
+    margin: 15px 0;
+}
+
+.my-skill-percent {
+    background-color: #ccc;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.my-skill-percent span {
+    background-color: #009688;
+    display: block;
+    border-radius: 10px;
+}
+
+.skill {
+    color: #fff;
+}
+
+.skill-adobe {
+    width: var(--adobe);
+}
+
+.skill-photo {
+    width: var(--photo);
+}
+
+.skill-iilu {
+    width: var(--iilu);
+}
+
+.skill-media {
+    width: var(--media);
+}
+
+
+.langua {
+    height: 20px;
+}
+
+.english {
+    width: var(--english);
+}
+
+.spanish {
+    width: var(--spanish);
+}
+
+.german {
+    width: var(--german);
+}
+
+/* work */
+.work {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #fff;
+    padding: 0 16px;
+}
+
+.work:first-child {
+    margin-bottom: 16px;
+}
+
+.work-header {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 16px 0;
+    margin: 10px 0;
+    display: block;
+    color: #757575;
+}
+
+.work-header i {
+    color: #009688;
+    font-size: 36px;
+    margin-right: 16px;
+}
+
+.work-job {
+    padding: 0 16px;
+}
+
+.job-header {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.7;
+}
+
+.job-time {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+    color: #009688;
+}
+
+.job-time i {
+    margin-right: 16px;
+}
+
+.job-time span {
+    display: inline-block;
+    background-color: #009688;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.job-title {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+}
+
+/* footer */
+.footer {
+    background-color: #009688;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-title {
+    padding: 15px 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.5;
+    /* display: block; */
+}
+
+.footer-icon i:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.footer-link {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.footer-link a {
+    color: #fff;
+}
